@@ -1,0 +1,40 @@
+{
+  "global": {
+    "settings": {
+      "color": {
+        "custom": false,
+        "customGradients": false,
+        "gradients": [],
+        "palette": [
+          {
+            "name": "Dark",
+            "slug": "dark",
+            "color": "#222"
+          },
+          {
+            "name": "Light",
+            "slug": "light",
+            "color": "#f0f0f0"
+          }
+        ]
+      },
+      "typography": {
+        "dropCap" : false,
+        "fontSizes": []
+      }
+    },
+    "styles": {
+      "color": {
+        "text": "var(--wp--preset--color--dark)"
+      }
+    }
+  },
+  "core/heading/h2": {
+    "styles": {
+      "color": {
+        "text": "var(--wp--preset--color--light)",
+        "background": "var(--wp--preset--color--dark)"
+      }
+    }
+  }
+}
